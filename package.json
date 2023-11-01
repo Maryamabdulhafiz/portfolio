@@ -1,0 +1,19 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "my_portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+  "create-css": "sass -w ./styles/main.scss ./styles/main.css"
+},
+  "repository": {
+    "type": "git",
+    "url": "Portfolio"
+  },
+  "keywords": [
+    "[]"
+  ],
+  "author": "Marfiz",
+  "license": "ISC"
+}

@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: 100vh;
+  padding: 0 5rem;
+  background-color: #32292f;
+}
+header a {
+  text-decoration: none;
+  color: #e3dfff;
+}
+header .nav {
+  display: flex;
+  width: 85%;
+  height: 50px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 100px 0 100px;
+  background-color: #575366;
+}
+header .nav .nav-list {
+  width: 65%;
+  display: flex;
+  justify-content: space-evenly;
+}
+header .nav .nav-icons {
+  display: flex;
+  justify-content: space-evenly;
+  width: 20%;
+}
+header .nav .nav-icons svg {
+  width: 30px;
+}
+header .introduction {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 5rem;
+}
+header .introduction .introduction-text {
+  width: 30%;
+  color: #e3dfff;
+}
+header .introduction .introduction-text h1 {
+  font-size: 4em;
+}
+header .introduction .introduction-text p {
+  margin: 10px;
+}
+header .introduction .introduction-text .btn {
+  background-color: plum;
+  padding: 10px;
+  border: none;
+  width: 15em;
+  margin: 10px;
+}
+header .portfolio-img {
+  width: 20em;
+  border-radius: 50%;
+  height: 20em;
+}
+header h6 {
+  bottom: 10rem;
+}
+header img {
+  width: 4em;
+}
+header .logos {
+  color: #e3dfff;
+  margin-top: 10em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+/*# sourceMappingURL=main.css.map */
