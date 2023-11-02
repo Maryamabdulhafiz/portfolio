@@ -36,6 +36,9 @@ header .nav .nav-icons {
 header .nav .nav-icons svg {
   width: 30px;
 }
+header .hamburger {
+  display: none;
+}
 header .introduction {
   display: flex;
   justify-content: space-evenly;
@@ -67,15 +70,59 @@ header .portfolio-img {
 header h6 {
   bottom: 10rem;
 }
-header img {
-  width: 4em;
-}
 header .logos {
-  color: #e3dfff;
   margin-top: 10em;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+}
+header .logos img {
+  width: 5em;
+  border: 1px solid plum;
+  padding: 5px;
+}
+
+@media screen and (max-width: 1000px) {
+  header {
+    height: 100%;
+  }
+  header .nav {
+    display: none;
+  }
+  header .hamburger {
+    display: flex;
+    justify-content: flex-end;
+    height: 3px;
+  }
+  header .hamburger svg {
+    width: 30px;
+    color: #e3dfff;
+  }
+  .introduction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .introduction .introduction-text {
+    width: 30%;
+    color: #32292f;
+    margin: 20px;
+    font-size: 20px;
+  }
+  .introduction .introduction-text p {
+    width: 15em;
+  }
+  .introduction .portfolio-img {
+    margin: 0px;
+    width: 25em;
+    height: 25em;
+  }
+  .introduction .portfolio-img {
+    width: 20em;
+    border-radius: 50%;
+    height: 20em;
+    margin-bottom: 0;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
